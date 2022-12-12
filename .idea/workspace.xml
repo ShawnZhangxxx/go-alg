@@ -5,13 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be3244c-71dc-4ea6-903a-9a02cbe972cd" name="Default Changelist" comment="Merge branch 'main' of github.com:ShawnZhangxxx/go-alg into main&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;liner/slice.go">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liner/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liner/slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/LinkList.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/LinkList.go" afterDir="false" />
-    </list>
+    <list default="true" id="5be3244c-71dc-4ea6-903a-9a02cbe972cd" name="Default Changelist" comment="Merge branch 'main' of github.com:ShawnZhangxxx/go-alg into main&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;liner/slice.go" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
