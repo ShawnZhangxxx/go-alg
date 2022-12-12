@@ -1,25 +1,36 @@
 package main
 
+/*
+#include <stdlib.h>
+*/
 import "C"
 import (
 	"fmt"
 	"unsafe"
 )
+
 type Slice struct {
 	Data unsafe.Pointer //万能指针类型，对应c语言中void*
-	len int
-	cap int
+	len  int
+	cap  int
 }
 
-const TAG  = 8
+const TAG = 8
 
-func main()  {
-	var s []int
-	fmt.Println(unsafe.Sizeof(s))//
-}
+//func main() {
+//	//fmt.Println(111)
+//	s := new(Slice)
+//	s.Create(3,3,1,2,3)
+//	s.Append(4)
+//	s.Print()
+//	s.Search(2)
+//	s.Delete(1)
+//	fmt.Println("delete--")
+//	s.Print()
+//}
 
-func (s *Slice)Create(l int,c int,Data ...int)  {
-	if len(Data) == 0{
+func (s *Slice) Create(l int, c int, Data ...int) {
+	if len(Data) == 0 {
 		return
 	}
 
@@ -33,13 +44,72 @@ func (s *Slice)Create(l int,c int,Data ...int)  {
 	//转换成可计算的指针类型
 	p := uintptr(s.Data)
 
-	for _,v := range Data {
-		*(* int)(unsafe.Pointer(p)) = v
+	for _, v := range Data {
+		*(*int)(unsafe.Pointer(p)) = v
 		p += TAG
 	}
 
 }
 
+func (s *Slice) Print() {
+	if s == nil {
+		return
+	}
+
+	p := uintptr(s.Data)
+	for i := 0; i < s.len; i++ {
+		//fmt.println(*p)
+		fmt.Print(*(*int)(unsafe.Pointer(p)))
+		p += TAG
+	}
+}
+
+func (s *Slice) Append(Data ...int) {
+	if s == nil {
+		return
+	}
+	if len(Data) == 0 {
+		return
+	}
+	if s.len+len(Data) > s.cap {
+		//扩充容量
+		s.Data = C.realloc(s.Data, C.ulonglong(s.cap)*2*8)
+
+		s.cap = s.cap * 2
+	}
+
+	p := uintptr(s.Data)
+	//p = p + TAG * s.len
+	for i := 0; i < s.len; i++ {
+		//指针偏移
+		p += TAG
+	}
+	for i := 0; i < len(Data); i++ {
+		*(*int)(unsafe.Pointer(p)) = Data[i]
+		p += TAG
+	}
+	s.len = s.len + len(Data)
+}
+
+func (s *Slice) GetData(index int) int {
+	if s == nil || s.Data == nil {
+		return 0
+	}
+
+	if index < 0 || index > s.len-1 {
+		return 0
+	}
+
+	p := uintptr(s.Data)
+
+	for i := 0; i < index; i++ {
+		p += TAG
+	}
+	return *(*int)(unsafe.Pointer(p))
+
+}
+
+<<<<<<< HEAD
 
 //Print 打印切片
 func (s *Slice) Print() {
@@ -135,22 +205,67 @@ func (s *Slice) Delete(index int) {
 
 	//将指针指向需要删除的下标位置
 	p := uintptr(s.Data)
+=======
+func (s *Slice) Search(value int) int {
+	if s == nil || s.Data == nil {
+		return 0
+	}
+
+	p := uintptr(s.Data)
+
+	for i := 0; i < s.len; i++ {
+		if *(*int)(unsafe.Pointer(p)) == value {
+			fmt.Println("search----")
+			fmt.Println(i)
+			return i
+		}
+		p += TAG
+
+	}
+	return -1
+
+}
+
+func (s *Slice) Delete(index int) int {
+	if s == nil || s.Data == nil {
+		return 0
+	}
+
+	if index < -1 || index > s.len-1 {
+		return 0
+	}
+
+	p := uintptr(s.Data)
+
+>>>>>>> f827a68fa064ac5025d1d968adb3a95a65344d76
 	for i := 0; i < index; i++ {
 		p += TAG
 	}
 
+<<<<<<< HEAD
 	//用下一个指针对应的值为当前指针对应的值进行赋值
 	temp := p
 	for i := index; i < s.len; i++ {
 		temp += TAG
 		*(*int)(unsafe.Pointer(p)) = *(*int)(unsafe.Pointer(temp))
+=======
+	for i := 0; i < s.len-index; i++ {
+		*(*int)(unsafe.Pointer(p)) = *(*int)(unsafe.Pointer(p + TAG))
+>>>>>>> f827a68fa064ac5025d1d968adb3a95a65344d76
 		p += TAG
 	}
 
 	s.len--
+<<<<<<< HEAD
 }
 
 //插入元素 Insert(下标 元素)
+=======
+	return 0
+}
+
+// 插入元素 Insert(下标 元素)
+>>>>>>> f827a68fa064ac5025d1d968adb3a95a65344d76
 func (s *Slice) Insert(index int, Data int) {
 	if s == nil || s.Data == nil {
 		return
@@ -199,7 +314,11 @@ func (s *Slice) Insert(index int, Data int) {
 	s.len++
 }
 
+<<<<<<< HEAD
 //销毁切片
+=======
+// 销毁切片
+>>>>>>> f827a68fa064ac5025d1d968adb3a95a65344d76
 func (s *Slice) Destroy() {
 	//调用C语言  适释放堆空间
 	C.free(s.Data)
