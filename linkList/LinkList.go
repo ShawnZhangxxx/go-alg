@@ -1,9 +1,5 @@
 package linkList
 
-import (
-	"unsafe"
-)
-
 type LinkList struct {
 	len   int
 	start *Node
@@ -11,7 +7,7 @@ type LinkList struct {
 
 type Node struct {
 	//prev unsafe.Pointer
-	next unsafe.Pointer
+	next *Node
 	data int
 }
 
@@ -31,8 +27,9 @@ func (ll *LinkList) append(data int) {
 		ll.start = node
 	} else {
 		for ll.start.next != nil {
-
+			ll.start = ll.start.next
 		}
+		ll.start.data = data
 	}
 
 }
