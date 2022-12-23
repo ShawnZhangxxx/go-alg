@@ -19,15 +19,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be3244c-71dc-4ea6-903a-9a02cbe972cd" name="Default Changelist" comment="" />
+    <list default="true" id="5be3244c-71dc-4ea6-903a-9a02cbe972cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/liner/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/circularLinkList/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/linklist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/oneWayLinkList/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/twoWayLinkList/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/binary/BinaryTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liner/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/liner/slice/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liner/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/liner/slice/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/LinkList.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="2IcWaShKXCRIrJyodU1SqXLpEvi" />
   <component name="ProjectViewState">
@@ -35,17 +59,88 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/文档源码/数据结构/day1/02代码" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linkList" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\go-alg\linkList" />
+      <recent name="D:\myproject\go-alg\linkList\oneWayLinkList" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main2.go (1)">
+    <configuration name="go build go-alg/l" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/l/main.go" />
+      <package value="go-alg/l" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-alg/linkList/oneWayLinkList" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/linkList/oneWayLinkList/main2.go" />
+      <package value="go-alg/linkList/oneWayLinkList" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main2.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/linkList/twoWayLinkList/main2.go" />
+      <package value="go-alg" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/linkList/oneWayLinkList/main2.go" />
+      <package value="go-alg" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/l/main.go" />
+      <package value="go-alg" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build go-alg/l" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build go-alg/linkList/oneWayLinkList" />
+      <item itemvalue="Go Build.go build main2.go" />
+      <item itemvalue="Go Build.go build main2.go (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main2.go (1)" />
+        <item itemvalue="Go Build.go build go-alg/linkList/oneWayLinkList" />
+        <item itemvalue="Go Build.go build main2.go" />
+        <item itemvalue="Go Build.go build go-alg/l" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,16 +156,87 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="945" y="359" key="FileChooserDialogImpl" timestamp="1670551308846">
+    <state x="448" y="220" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671434114149">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1670842218333" />
+    <state x="448" y="220" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1671434114149" />
+    <state width="514" height="466" key="DebuggerActiveHint" timestamp="1671420420246">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="514" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1671420420246" />
+    <state x="945" y="359" key="FileChooserDialogImpl" timestamp="1671432788271">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="2300" y="259" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1670481488927" />
-    <state x="945" y="359" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1670551308846" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1670835345687">
-      <screen x="1680" y="0" width="1680" height="1010" />
+    <state x="945" y="359" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1671432788271" />
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1637" height="175" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1670842275306" />
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1637" height="175" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1670842275305" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1637" height="175" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1670842275305" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1637" height="175" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1670842275305" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1671634672821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1671634672821" />
+    <state width="759" height="619" key="SwitcherDM" timestamp="1671613598157">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1670835345687" />
+    <state width="759" height="619" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1671613598157" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linkList/linklist.go</url>
+          <line>58</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/fu.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linkList/twoWayLinkList/main2.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
