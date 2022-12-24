@@ -10,7 +10,12 @@ type StackNode struct {
 func main() {
 	s := CreateStack(1, 2, 3)
 	PrintStack(s)
-	fmt.Println(LengthStack(s))
+	//fmt.Println(LengthStack(s))
+	s = Push(s,4)
+	 PrintStack(s)
+	s = Pop(s)
+	 PrintStack(s)
+
 }
 
 //创建链栈
@@ -63,5 +68,28 @@ func LengthStack(s *StackNode) int {
 
 //入栈
 func Push(s *StackNode, Data interface{}) *StackNode {
+	if s == nil {
+		return nil
+	}
+	newNode := &StackNode{
+		Data: Data,
+		Next: s,
+	}
+	return newNode
 
+}
+//入栈
+func Pop(s *StackNode) *StackNode {
+	if s == nil {
+		return nil
+	}
+	node := s.Next
+	s.Data = nil
+	s = nil
+	return node
+}
+
+//清空链栈
+func Clear(s *StackNode) *StackNode {
+	return nil
 }
