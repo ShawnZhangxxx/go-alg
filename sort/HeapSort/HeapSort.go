@@ -25,7 +25,7 @@ func HeapSort(arr []int, start int, end int) {
 
 func Heap(arr []int, end int, heapSize int) {
 	if end < heapSize {
-		for arr[end] > arr[(end-1)/2] && end > 0 {
+		for arr[end] > arr[(end-1)/2] && end > 0 { //与父节点比较
 			arr[end], arr[(end-1)/2] = arr[(end-1)/2], arr[end]
 			end = (end - 1) / 2
 		}

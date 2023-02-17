@@ -10,15 +10,15 @@ type LinkNode2 struct {
 /**
 	自己实现的
  */
-func main() {
-	var ll = &LinkNode2{}
-	ll.Create(1)
-	//ll.Print()
-	ll.Append(4,5,6)
-	ll.Print()
-	ll.Destroy()  //并不能destroy掉
-	ll.Print()
-}
+//func main() {
+//	var ll = &LinkNode2{}
+//	ll.Create(1)
+//	//ll.Print()
+//	ll.Append(4,5,6)
+//	ll.Print()
+//	ll.Destroy()  //并不能destroy掉
+//	ll.Print()
+//}
 
 func (l *LinkNode2) Create(data ...interface{})  {
 	if l == nil{
