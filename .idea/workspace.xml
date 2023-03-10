@@ -23,15 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5be3244c-71dc-4ea6-903a-9a02cbe972cd" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/leecode/1twosum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/2addTwoNum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/3longestSubstring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/linklist.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkList/circularLinkList/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkList/newK/Reverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/init/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/pkg-var-fun/diy/diy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/pkg-var-fun/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/pkg-var-fun/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/select/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/10regularExpressionMatching.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/4MedianOfTwoSortedArrays.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/5longestPalindromicSubstring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/6ZigzagConversion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/7revserseInteger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/8stringToInteger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/9PalidromeNum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/index.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/main2.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/main2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/HeapSort/HeapSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/HeapSort/HeapSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leecode/3longestSubstring.go" beforeDir="false" afterPath="$PROJECT_DIR$/leecode/3longestSubstring.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leecode/linklist.go" beforeDir="false" afterPath="$PROJECT_DIR$/leecode/linklist.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,42 +70,36 @@
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leecode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-backend-clean-architecture" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\go-alg\interface\pkg-var-fun" />
+      <recent name="D:\myproject\go-alg\interface" />
       <recent name="D:\myproject\go-alg\leecode" />
       <recent name="D:\myproject\go-alg\linkList\circularLinkList" />
       <recent name="D:\myproject\go-alg" />
-      <recent name="D:\myproject\go-alg\sort" />
-      <recent name="D:\myproject\go-alg\sort\SelectSort" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-alg/leecode">
-    <configuration name="go build go-alg" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build 3longestSubstring.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-alg" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/leecode/2addTwoNum.go" />
-      <package value="go-alg" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-alg" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-alg" />
-      <working_directory value="$PROJECT_DIR$/leecode" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/leecode/2addTwoNum.go" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leecode/3longestSubstring.go" />
       <package value="go-alg" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -108,6 +110,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/leecode/2addTwoNum.go" />
       <package value="go-alg" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-alg/interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/interface/map.go" />
+      <package value="go-alg/interface" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -129,15 +140,39 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$/interface/pkg-var-fun" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/interface/pkg-var-fun/main.go" />
+      <package value="go-alg" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-alg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/interface/init/main.go" />
+      <package value="go-alg" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build go-alg" />
+      <item itemvalue="Go Build.go build 3longestSubstring.go" />
       <item itemvalue="Go Build.go build go-alg/leecode" />
+      <item itemvalue="Go Build.go build go-alg/interface" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build go-alg/interface" />
+        <item itemvalue="Go Build.go build 3longestSubstring.go" />
         <item itemvalue="Go Build.go build go-alg/leecode" />
-        <item itemvalue="Go Build.go build go-alg" />
-        <item itemvalue="Go Build.go build go-alg" />
       </list>
     </recent_temporary>
   </component>
@@ -169,10 +204,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="632" y="435" key="#GOROOT/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676528786290" />
-    <state x="294" y="159" width="1092" height="847" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676617901723">
+    <state x="294" y="159" width="1092" height="847" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678263339805">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="294" y="159" width="1092" height="847" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676617901723" />
+    <state x="294" y="159" width="1092" height="847" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678263339805" />
     <state x="448" y="220" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1671434114149" />
     <state width="529" height="337" key="DebuggerActiveHint" timestamp="1676620161547">
       <screen x="0" y="0" width="1680" height="1010" />
@@ -183,31 +218,35 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="698" y="250" key="EnvironmentVariablesDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676362630497" />
-    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1676617820379">
+    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1678328527383">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676617820379" />
+    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678328527383" />
     <state x="2300" y="259" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1670481488927" />
-    <state x="945" y="359" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1671432788271" />
-    <state width="1637" height="352" key="GridCell.Tab.0.bottom" timestamp="1676620218305">
+    <state x="945" y="359" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1677303288049" />
+    <state width="1637" height="244" key="GridCell.Tab.0.bottom" timestamp="1678265607344">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="352" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676620218305" />
+    <state width="1637" height="244" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678265607344" />
+    <state width="1637" height="288" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1676952369120" />
     <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1671863874858" />
-    <state width="1637" height="352" key="GridCell.Tab.0.center" timestamp="1676620218305">
+    <state width="1637" height="244" key="GridCell.Tab.0.center" timestamp="1678265607343">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="352" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676620218305" />
+    <state width="1637" height="244" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678265607343" />
+    <state width="1637" height="288" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1676952369120" />
     <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1671863874858" />
-    <state width="1637" height="352" key="GridCell.Tab.0.left" timestamp="1676620218304">
+    <state width="1637" height="244" key="GridCell.Tab.0.left" timestamp="1678265607343">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="352" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676620218304" />
+    <state width="1637" height="244" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678265607343" />
+    <state width="1637" height="288" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1676952369119" />
     <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1671863874858" />
-    <state width="1637" height="352" key="GridCell.Tab.0.right" timestamp="1676620218305">
+    <state width="1637" height="244" key="GridCell.Tab.0.right" timestamp="1678265607344">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="352" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676620218305" />
+    <state width="1637" height="244" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678265607344" />
+    <state width="1637" height="288" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1676952369120" />
     <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1671863874858" />
     <state width="1637" height="352" key="GridCell.Tab.1.bottom" timestamp="1676620218305">
       <screen x="0" y="0" width="1680" height="1010" />
@@ -233,20 +272,20 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="710" y="224" key="RollbackChangesDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676362654854" />
-    <state x="341" y="149" key="SettingsEditor" timestamp="1676530528921">
+    <state x="341" y="149" key="SettingsEditor" timestamp="1678265302669">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="341" y="149" key="SettingsEditor/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676530528921" />
-    <state width="499" height="447" key="SwitcherDM" timestamp="1676620037192">
+    <state x="341" y="149" key="SettingsEditor/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678265302669" />
+    <state width="499" height="447" key="SwitcherDM" timestamp="1678265351339">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="499" height="447" key="SwitcherDM/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676620037192" />
-    <state width="498" height="446" key="SwitcherDM/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1670835345687" />
+    <state width="499" height="447" key="SwitcherDM/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1678265351339" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1676952121884" />
     <state width="759" height="619" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1671613598157" />
-    <state x="542" y="103" width="596" height="804" key="find.popup" timestamp="1676530939229">
+    <state x="542" y="103" width="596" height="804" key="find.popup" timestamp="1677749792989">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="542" y="103" width="596" height="804" key="find.popup/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1676530939229" />
+    <state x="542" y="103" width="596" height="804" key="find.popup/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1677749792989" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1671785308609">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -289,11 +328,6 @@
           <url>file://$PROJECT_DIR$/leecode/1twosum.go</url>
           <line>57</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/leecode/2addTwoNum.go</url>
-          <line>43</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

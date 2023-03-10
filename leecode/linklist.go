@@ -12,6 +12,26 @@ type LinkNode struct {
 }
 
 //创建链表 Create(数据)
+func (node *LinkNode) Create2(Data ...interface{}) { //1,2
+	if node == nil {
+		return
+	}
+	//头节点
+	head := node
+
+	for i := 0; i < len(Data); i++ {
+		//创建一个新的节点
+		newNode := new(LinkNode)
+		newNode.Data = Data[i]
+		newNode.Next = nil
+		//将新节点作为当前节点的下一个节点
+		node.Next = newNode
+		node = node.Next
+	}
+	node = head
+}
+
+
 func (node *LinkNode) Create(Data ...interface{}) { //1,2
 	if node == nil {
 		return
