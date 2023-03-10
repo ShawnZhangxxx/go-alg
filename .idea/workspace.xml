@@ -23,23 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5be3244c-71dc-4ea6-903a-9a02cbe972cd" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/interface/init/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/pkg-var-fun/diy/diy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/pkg-var-fun/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/pkg-var-fun/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/select/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/10regularExpressionMatching.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/4MedianOfTwoSortedArrays.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/5longestPalindromicSubstring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/6ZigzagConversion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/7revserseInteger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/8stringToInteger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/9PalidromeNum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/index.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leecode/3longestSubstring.go" beforeDir="false" afterPath="$PROJECT_DIR$/leecode/3longestSubstring.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leecode/linklist.go" beforeDir="false" afterPath="$PROJECT_DIR$/leecode/linklist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leecode/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/leecode/index.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
