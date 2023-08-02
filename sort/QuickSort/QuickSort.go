@@ -39,6 +39,9 @@ func getRand(start int,end int) int {
 	return rand.Intn(end - start) + start
 }
 
+/**
+ *
+ */
 func Partion(arr []int,p int,start int,end int) int  {
 	pivot := arr[p]
 	for start < end {
